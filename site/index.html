@@ -1,0 +1,2641 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Denise Tristan and Todd Tenio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1", charset="UTF-8">
+
+<link rel="stylesheet" href="DENTRISTOD.css">
+<link rel="stylesheet" href="TESTSLIDE/testslide.css">
+<link rel="stylesheet" href="hoover.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="external/cdnjs.cloudflare.com/font-awesome.min.css">
+<link href="external/fonts.googleapis.com/css2.css" rel="stylesheet">
+
+
+<script>
+  window.console = window.console || function(t) {};
+</script>
+
+<script src="reservations.js" defer></script>
+  
+  
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+<link rel="stylesheet" href="reservations.css">
+</head>
+
+<body translate="no">
+
+
+<div class="top-container"; id="home">
+</div>
+
+<section class="navigation" id="myNavContainer">
+<div class="main">
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="index.html#!"><span></span></a></div>
+            <ul class="mainnav">
+                <li class="hassubs" style="list-style-type:none"><a href="index.html#">Profile</a>
+                    <ul class="dropdown">
+                        <li class="subs" style="list-style-type:none"><a href="index.html#aboutus">About Us</a></li>
+                        <li class="subs" style="list-style-type:none"><a href="index.html#staff">Beach house Staff</a></li>
+                        <li class="subs" style="list-style-type:none"><a href="index.html#guindulman">The Town of Guindulman</a></li>
+                    </ul>
+		</li>
+                <li style="list-style-type:none"><a href="index.html#location">Location</a></li>
+                <li class="hassubs" style="list-style-type:none"><a href="index.html#">Services</a>
+                    <ul class="dropdown">
+                        <li class="subs" style="list-style-type:none"><a href="index.html#Accommodation">Accommodation</a></li>
+                        <li class="subs hassubs"style="list-style-type:none"><a href="index.html#">Excursions</a>
+                            <ul class="dropdown">
+                                <li class="subs" style="list-style-type:none"><a href="index.html#dive">SCUBA Diving</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#fishing">Fishing</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#boholtour">Bohol Attractions</a></li>
+                            </ul>				
+                        </li>
+                        <li class="subs hassubs" style="list-style-type:none"><a href="index.html#">Rentals</a>
+                            <ul class="dropdown">
+                                <li class="subs" style="list-style-type:none"><a href="index.html#">Scooters</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#">Scuba/Snorkelling Equipments</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#">Kayaks/SUPs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li> 
+                <li style="list-style-type:none"><a href="index.html#gettinghere">Getting Here</a></li>
+                <li class="hassubs" style="list-style-type:none"><a href="index.html#">Gallery</a>
+                    <ul class="dropdown">
+                        <li class="subs hassubs" style="list-style-type:none"><a href="index.html#">Photos</a>
+                            <ul class="dropdown">
+                                <li class="subs" style="list-style-type:none"><a href="index.html#guestphotos">Guest Photos</a></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openBeachHouseModal();currentBeachHouseSlide(1)">The Beach House</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openGuindulmanModal();currentGuindulmanSlide(1)">Guindulman</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openLanthaiModal();currentLanthaiSlide(1)">Landthai Hills</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openCANUMANTADModal();currentCANUMANTADSlide(1)">Can-Umantad Falls</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openCabantianModal();currentCabantianSlide(1)">Cabantian Scenery</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openCabaocanModal();currentCabaocanSlide(1)">Cabaocan River</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openCatungawanModal();currentCatungawanSlide(1)">Catungawan Scenery</button></li>
+                                <li class="subs" style="list-style-type:none"><button class="button" onclick="openLombogModal();currentLombogSlide(1)">Lombog Scenery</button></li>
+                               <li class="subs" style="list-style-type:none"><button class="button" onclick="openLongonModal();currentLongonSlide(1)">Longon Scenery</button></li>
+                            </ul>				
+			</li>
+                        <li class="subs hassubs" style="list-style-type:none"><a href="index.html#">Videos</a>
+                            <ul class="dropdown">
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('HouseVideo.html','pagename','resizable,height=600,width=700'); return false;">The Beach House</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('GuindulmanVideo.html','pagename','resizable,height=600,width=700'); return false;">Guindulman Scenery</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('LanthaiVideo.html','pagename','resizable,height=600,width=700'); return false;">Landthai Hills</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('CanumantadVideo.html','pagename','resizable,height=600,width=700'); return false;">Can-Umantad Falls</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('CabantianVideo.html','pagename','resizable,height=600,width=700'); return false;">Cabantian Scenery</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('CabaocanVideo.html','pagename','resizable,height=600,width=700'); return false;">Cabaocan River</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('CatungawanVideo.html','pagename','resizable,height=600,width=700'); return false;">Catungawan Scenery</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('LombogVideo.html','pagename','resizable,height=600,width=700'); return false;">Lombog Scenery</a></li>
+                                <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('LongonVideo.html','pagename','resizable,height=600,width=700'); return false;">Longon Scenery</a></li>
+                           </ul>				
+			</li>
+                    </ul>
+                </li>
+                <li class="hassubs" style="list-style-type:none"><a href="index.html#">Hiking Trails</a>
+                    <ul class="dropdown">
+                        <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('CasbuTrail.html','pagename','resizable,height=600,width=800'); return false;">Casbu Farm</a></li>
+                        <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('LanthaiTrail.html','pagename','resizable,height=600,width=800'); return false;">Landthai Hils</a></li>
+                        <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('CabantianTrail.html','pagename','resizable,height=600,width=800'); return false;">Cabantian Hills</a></li>
+                        <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('BunhayagTrail.html','pagename','resizable,height=600,width=800'); return false;">Bunhayag Hills</a></li>
+                        <li class="subs" style="list-style-type:none"><a href="index.html#!" target="_blank" onClick="window.open('MountainAndSeaTrail.html','pagename','resizable,height=600,width=800'); return false;">Mountain and Sea Viewpoint</a></li>
+                    </ul>
+		</li>
+                <li style="list-style-type:none"><a href="index.html#imagemap">Dive Sites</a></li>
+                <li style="list-style-type:none"><a href="index.html#reservation">Make Reservation</a></li>
+                <li style="list-style-type:none"><a href="index.html#reviews">Guest Reviews</a></li>
+            </ul>
+            <br style="clear: both;">
+        </div>
+     </nav>
+</div>
+</section>
+
+<script src='jquery.min.js'></script>
+
+      <script id="rendered-js" >
+(function ($) {// Begin jQuery
+  $(function () {// DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function (e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function () {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function () {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function () {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+
+//# sourceURL=pen.js
+    </script>
+
+<div class="parallax">
+
+<br>
+
+<div class="contentfrst">
+
+<p>Elevate your vacation experience! Stay with us to immerse yourself in the warm embrace of local culture, 
+   away from the hustle and bustle of the city. Discover the hidden gems of Guindulman and make memories 
+   that will last a lifetime.</p>
+<br>
+
+<p><b><i>Guindulman</i></b>, steeped in rich history from Spanish, American, and Japanese occupations, invites you to 
+   explore its intriguing past. Visit the Cabantian Massacre monument, a haunting reminder of a deadly
+   encounter during the 1899 Philippine-American War. Explore the ancient Our Lady of Consolacion church, 
+   a masterpiece built by Agustinian Recollects in 1788.</p>
+<br>
+
+<p>Nature enthusiasts will be in paradise with Guindulman's pristine natural wonders. Witness the beauty 
+   of Kinahugan Falls, Cabagnow Pool Cave, and Lonoy Cold Spring, all among the best in the country. Don't 
+   miss the iconic Chocolate Hills or the world-renowned dive sites in Bitoon and Anda, attracting divers 
+   from across the globe.</p>
+<br>
+
+<p>At <strong id="aboutus">DENTRISTOD</strong> You are at home away from home and we ensure that your vacation is 
+   nothing short of unforgettable. BOOK NOW and embark on an extraordinary adventure with us!
+</p>
+
+</div>
+
+<br>
+<div class="contentfrst">
+<h2 style="text-align:center">About Us</h2>
+
+<p>Welcome to <strong>DENTRISTOD</strong> - where adventure meets family, and unforgettable memories are made!</p>
+<br>
+
+<p><strong>DENTRISTOD</strong> is more than just a place to stay; it's a heartfelt, family-operated business born out of our shared love for travel and quality time spent together. We believe that the true essence of any journey lies in embracing and immersing yourself in the local culture. While luxurious hotels and resorts have their charm, we've discovered that living with the locals offers a perspective like no other, providing genuine insights into their way of life and the 'why' behind it all. Not only does it offer fantastic value, but it also boasts a culture and climate that resonate with our Filipino roots. We understand that not everyone has a bottomless travel budget, and neither do we. It's these kinds of vacations that have shaped our family's values and have instilled in our children the true meaning of family. Even now, as our children have grown and embarked on their own careers, they still yearn for those cherished moments spent together. That's why we've created a home away from home, a place where we can relive those precious memories. And we've opened our doors to you, so you can experience the magic too!</p>
+<br>
+
+<p id="guindulman">At <strong>DENTRISTOD</strong>, your family becomes our family from the moment you arrive until the time you bid farewell. We handle all the details, so all you need to do is relax, unwind, and create beautiful, lasting memories with your loved ones. Join us in this heartwarming journey, and let's make your family adventure truly unforgettable!</p>
+<br>
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+
+</div>
+
+<br>
+<div class="contentfrst">
+    <h2 style="text-align:center">Municipality of Guindulman</h2>
+
+<p><img src="images/GUINDULMAN/new-1.jpg" alt="Staff" style="width:170px;height:212px;margin-right:15px;float:left;" onclick="openGuindulmanModal();currentGuindulmanSlide(1)" class="hover-shadow cursor"><i>Guindulman</i> was once 
+   a small settlement under the parochial territory of the municipality of Jagna. Records of the 
+   National Historical Commission declared that this settlement was first managed by Jesuit priests up to the year 1768 
+   and then they were replaced by the Augustinian Recollect Fathers. On May 5, 1797, during the time of the Augustinians, 
+   Guindulman was declared a municipality.</p>
+
+<br>
+<p>The first settlement of <i>Guindulman</i> was a small clearing inside a dense forest of tropical trees and shrubs. If twilight 
+   falls, the area became dark or “Tulum in the local dialect. At that time, there were only two towns in Bohol: Jagna and Batuanan (now Alicia). 
+   Traveling by foot from any of these towns, people are usually overtaken by darkness or “guinduluman” when they reach the settlement. Thus, 
+   the settlement was often referred to as Guinduluman which later was changed to <i>Guindulman</i></p>
+
+<br>
+<p><img src="images/GUINDULMAN/new-8.jpg" alt="Staff" style="width:170px;height:212px;margin-right:15px;float:right;" onclick="openGuindulmanModal();currentGuindulmanSlide(2)" class="hover-shadow cursor">The Spaniards ruled Guindulman with an iron hand, forcing the natives to build edifices such as churches and a convent. <i>Guindulman</i> is the only 
+   town in Bohol where the Spaniards built two stone churches; one facing east and the other facing west. During the Dagohoy rebellion, <i>Guindulman</i> 
+   played a major role. In 1827, in a final push to defeat Dagohoy’s followers, the Spaniards made a three-pronged attack. A group from Mactan 
+   Island landed in Talibon another group came from Cebu and landed in Calape; and the 3rd force started from <i>Guindulman</i> led by Comandante (Major) Manuel Sanz, 
+   accompanied by the Parish Priest, Fr. Narciso Hernandez, the first native-Filipino to become an Augustinian Recollect priest. On March 12, 1875, 
+   the barrio of <i>Guindulman</i> known as Quinale was made into a separate town in the civil aspect only and named Anda. On July 18, 1885, Anda became an independent 
+   parish and on March 19, 1885,became a Diocesan Parish and dedicated to the Santo Niño or the Holy Child Jesus. Royal approval was given on January 6, 1885 
+   and finally implemented on July 18, 1885 with Fr. Julian Cisnero as the 1st Parish Priest.</p>
+<br>
+<p>In 1896, the Fil-American war broke out. 
+   The American forces were superior in the arts of warfare and in their weapons, so, in no time at all, 
+   the Philippines fell into their hands. In March 1899 Tagbilaran was captured by the Americans. The Regional Revolutionary Government of Bohol 
+   was moved to the interior part of Bohol. Guerrilla resistance continued until on September 15, 1900 more than 100 American soldiers were massacred 
+   at Kabantian Pass – a narrow pass along the highway between Duero and <i>Guindulman</i>. Captain Martin Cabagnot and a handful of his men were armed only with 
+   bolos and spears and carried with them “anting-antings” or magic charms. After months of bloody warfare, the Boholanos were finally subdued. <i>Guindulman</i> 
+   town was occupied and governed by the Americans. Under them, roads and bridges were constructed and the natives were educated in the English language. Those 
+   found to be intelligent were promoted and at early ages became teachers.</p>
+
+<br>
+<p><img src="images/GUINDULMAN/new-2.jpg" alt="Staff" style="width:170px;height:212px;margin-right:15px;float:left;" onclick="openGuindulmanModal();currentGuindulmanSlide(3)" class="hover-shadow cursor">Being an American colony, the Japanese Imperial Forces attacked the Philippines when they laid siege to the Hawaiian Islands and World War II broke out. 
+   Eventually, <i>Guindulman</i> succumbed to the Japanese attacks and the town became their garrison.
+   The Japanese Army were harsh and cruel. The Japanese often tied up their victims to their houses, bayoneted them then burned their houses down. The women 
+   victims fell prey to their lustful desires and were often raped then killed. These images were vivid in my father’s mind that’s why when he happened to work 
+   with a Japanese consultant, he cannot help himself and says to me that his “blood boils” whenever he sees any Japanese.
+   Because of the Japanese’ atrocities, the native residents of Guindulman fled to the hills and were separated from each other. The evacuees subsisted only on 
+   root crops, coconuts and other fruits that they found in the hills. Still the Japanese carnage continued and in retaliation, the people raised their arms against 
+   their oppressors.
+   The late Provincial Governor Esteban Bernido, a distinguished Guindulmanon and World War II hero, organized the first guerilla force in the province which was called 
+   the Bohol Area Command. It was in this town and under his leadership that the first burst of guerrilla warfare was waged against the Japanese in 1943. For safety, the 
+   town government was temporarily transferred to one of the barrios. The natives often used the hit and run tactic causing heavy casualties on the Japanese ranks.</p>
+
+<br>
+<p>After the bombing of Hiroshima and Nagasaki 
+   in Japan, the Japanese Imperial Army conceded defeat and World War II ended. Again life under the Americans continued in 
+   all Philippine Islands until the time when Independence was declared. Slowly, all Filipinos gained their footings. More and more people were educated and trained in 
+   public administration and held public offices. <i id="canumantad">Guindulman</i> slowly progressed although it was challenged from time to time with natural calamitous events that often left 
+   the town in total devastation. But the hardy facets of the Guindulmanons always come to the fore. Sturdy and resilient, they always stand up and face every challenge 
+   that comes to them. There are still a lot to be done for the town to really progress, yet with concerted efforts of its inhabitants; the envisioned bustling and progressive 
+   <i id="gettinghere">Guindulman</i> will become a reality!</p>
+
+<div id="myGuindulmanModal" class="modal">
+  <span class="close cursor" onclick="closeGuindulmanModal()">&times;</span>
+  <div class="modal-content2">
+
+    <div class="GuindulmanSlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/GUINDULMAN/new-1.jpg" style="width:100%">
+    </div>
+
+    <div class="GuindulmanSlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/GUINDULMAN/new-2.jpg" style="width:100%">
+    </div>
+
+    <div class="GuindulmanSlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/GUINDULMAN/new-3.jpg" style="width:100%">
+    </div>
+    
+    <div class="GuindulmanSlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/GUINDULMAN/new-4.jpg" style="width:100%">
+    </div>
+    
+    <div class="GuindulmanSlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/GUINDULMAN/new-5.jpg" style="width:100%">
+    </div>
+    
+    <div class="GuindulmanSlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/GUINDULMAN/new-6.jpg" style="width:100%">
+    </div>
+ 
+    <div class="GuindulmanSlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/GUINDULMAN/new-7.jpg" style="width:100%">
+    </div>
+
+    <div class="GuindulmanSlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/GUINDULMAN/new-8.jpg" style="width:100%">
+    </div>
+
+    <div class="GuindulmanSlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/GUINDULMAN/new-9.jpg" style="width:100%">
+    </div>
+    
+   
+    <a class="prev" onclick="plusGuindulmanSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusGuindulmanSlides(1)">&#10095;</a>
+
+    <div class="caption-container2">
+      <p id="caption2"></p>
+    </div>
+
+
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-1.jpg" style="width:100%" onclick="currentGuindulmanSlide(1)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-2.jpg" style="width:100%" onclick="currentGuindulmanSlide(2)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-3.jpg" style="width:100%" onclick="currentGuindulmanSlide(3)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-4.jpg" style="width:100%" onclick="currentGuindulmanSlide(4)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-5.jpg" style="width:100%" onclick="currentGuindulmanSlide(5)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-6.jpg" style="width:100%" onclick="currentGuindulmanSlide(6)" alt="GUINDULMAN">
+    </div>
+
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-7.jpg" style="width:100%" onclick="currentGuindulmanSlide(7)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-8.jpg" style="width:100%" onclick="currentGuindulmanSlide(8)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo2 cursor" src="images/GUINDULMAN/new-9.jpg" style="width:100%" onclick="currentGuindulmanSlide(9)" alt="GUINDULMAN">
+    </div>
+  </div>
+</div>
+
+<script>
+function openGuindulmanModal() {
+  document.getElementById("myGuindulmanModal").style.display = "block";
+}
+
+function closeGuindulmanModal() {
+  document.getElementById("myGuindulmanModal").style.display = "none";
+}
+
+var GndlmnslideIndex = 1;
+showGuindulmanSlides(GndlmnslideIndex);
+
+function plusGuindulmanSlides(n) {
+  showGuindulmanSlides(GndlmnslideIndex += n);
+}
+
+function currentGuindulmanSlide(n) {
+  showGuindulmanSlides(GndlmnslideIndex = n);
+}
+
+function showGuindulmanSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("GuindulmanSlides");
+  var dots = document.getElementsByClassName("demo2");
+  var captionText = document.getElementById("caption2");
+  if (n > slides.length) {GndlmnslideIndex = 1}
+  if (n < 1) {GndlmnslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[GndlmnslideIndex-1].style.display = "block";
+  dots[GndlmnslideIndex-1].className += " active";
+  captionText.innerHTML = dots[GndlmnslideIndex-1].alt;
+}
+</script>
+
+
+<div id="myBeachHouseModal" class="modal">
+  <span class="close cursor" onclick="closeBeachHouseModal()">&times;</span>
+  <div class="modal-content11">
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">1 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-1.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">2 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-2.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">3 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-3.jpg" style="width:100%">
+    </div>
+    
+    <div class="BeachHouseSlides">
+      <div class="numbertext">4 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-4.jpg" style="width:100%">
+    </div>
+    
+    <div class="BeachHouseSlides">
+      <div class="numbertext">5 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-5.jpg" style="width:100%">
+    </div>
+    
+    <div class="BeachHouseSlides">
+      <div class="numbertext">6 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-6.jpg" style="width:100%">
+    </div>
+ 
+    <div class="BeachHouseSlides">
+      <div class="numbertext">7 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-7.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">8 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-8.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">9 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-9.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">10 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-10.jpg" style="width:100%">
+    </div>
+        
+    <div class="BeachHouseSlides">
+      <div class="numbertext">11 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-11.jpg" style="width:100%">
+    </div>
+ 
+    <div class="BeachHouseSlides">
+      <div class="numbertext">12 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-12.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">13 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-13.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">14 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-14.jpg" style="width:100%">
+    </div>
+
+    <div class="BeachHouseSlides">
+      <div class="numbertext">15 / 15</div>
+      <img src="images/BEACHHOUSE/BeachHouse-15.jpg" style="width:100%">
+    </div>
+        
+   
+    <a class="prev" onclick="plusBeachHouseSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusBeachHouseSlides(1)">&#10095;</a>
+
+    <div class="caption-container11">
+      <p id="caption2"></p>
+    </div>
+
+
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-1.jpg" style="width:100%" onclick="currentBeachHouseSlide(1)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-2.jpg" style="width:100%" onclick="currentBeachHouseSlide(2)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-3.jpg" style="width:100%" onclick="currentBeachHouseSlide(3)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-4.jpg" style="width:100%" onclick="currentBeachHouseSlide(4)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11cursor" src="images/BEACHHOUSE/BeachHouse-5.jpg" style="width:100%" onclick="currentBeachHouseSlide(5)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-6.jpg" style="width:100%" onclick="currentBeachHouseSlide(6)" alt="GUINDULMAN">
+    </div>
+
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-7.jpg" style="width:100%" onclick="currentBeachHouseSlide(7)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-8.jpg" style="width:100%" onclick="currentBeachHouseSlide(8)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-9.jpg" style="width:100%" onclick="currentBeachHouseSlide(9)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-10.jpg" style="width:100%" onclick="currentBeachHouseSlide(10)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-11.jpg" style="width:100%" onclick="currentBeachHouseSlide(11)" alt="GUINDULMAN">
+    </div>
+
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-12.jpg" style="width:100%" onclick="currentBeachHouseSlide(12)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-13.jpg" style="width:100%" onclick="currentBeachHouseSlide(13)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-14.jpg" style="width:100%" onclick="currentBeachHouseSlide(14)" alt="GUINDULMAN">
+    </div>
+    <div class="column2">
+      <img class="demo11 cursor" src="images/BEACHHOUSE/BeachHouse-15.jpg" style="width:100%" onclick="currentBeachHouseSlide(15)" alt="GUINDULMAN">
+    </div>
+  </div>
+</div>
+
+<script>
+function openBeachHouseModal() {
+  document.getElementById("myBeachHouseModal").style.display = "block";
+}
+
+function closeBeachHouseModal() {
+  document.getElementById("myBeachHouseModal").style.display = "none";
+}
+
+var BeachHouseslideIndex = 1;
+showBeachHouseSlides(BeachHouseslideIndex);
+
+function plusBeachHouseSlides(n) {
+  showBeachHouseSlides(BeachHouseslideIndex += n);
+}
+
+function currentBeachHouseSlide(n) {
+  showBeachHouseSlides(BeachHouseslideIndex = n);
+}
+
+function showBeachHouseSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("BeachHouseSlides");
+  var dots = document.getElementsByClassName("demo11");
+  var captionText = document.getElementById("caption2");
+  if (n > slides.length) {BeachHouseslideIndex = 1}
+  if (n < 1) {BeachHouseslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[BeachHouseslideIndex-1].style.display = "block";
+  dots[BeachHouseslideIndex-1].className += " active";
+  captionText.innerHTML = dots[BeachHouseslideIndex-1].alt;
+}
+</script>
+
+<br>
+
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+
+</div>
+
+<br>
+
+<div class="contentfrst">
+<h2 style="text-align:center">Getting Here</h2>
+    <p>
+- Take a public transportation going to DAO bus terminal near Island Country Mall (ICM) in Tagbilaran City
+</p>
+<br>
+    <p>
+- At the terminal, ask where you can take a public transportation going to Guindulman, usually a bus or a van. .</p>
+<br>
+    <p> 
+- When you get to the town of Guindulman tell the driver to stop at the Guindulman food park or CDO Bank, the closest landmarks to the address.</p>
+<br>
+  <p>
+- When driving from Tagbilaran when you get to the town of Guindulman, drive through till you get to barangay Punod. When you pass Cambarong bridge you'll see EUFRO Construction and Fishing Supply Store and then Petron gas station on the right. RUSI and Honda motorcycle dealerships on the left. At about 400 meters the house will be on the right side with brown gates. If you've reached Guindulman Food Park you already passed the house.
+</p>
+<br>
+   <p>
+- When driving from Candijay or Anda when you get to the town of Guindulman drive through til you get to the  town municipal hall. A kilometer and a half away, past CDO Bank on the right, you'll see the Guindulman Food Park on the left and the house will be a few meters away alongside it with a brown gate.    </p>
+<br>
+<p><h4>Useful Links That Will Help Your Travel:</h4></p> 
+<p><strong>NOTE:</strong>  <i>Not a complete listing of Airline and Ferry Companies. If you're flying any major Airlines to the Philippines, you'll be able to get to Us.</i></p>
+<br>
+<table id="gettinghere">
+  <tr>
+    <th>Ports and Terminals</th>
+    <th>Airline Companies</th>
+    <th>Ferry Companies</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.facebook.com/caapbpia/" target="_blank">Panglao Bohol Internarional Airport</a></td>
+    <td><a href="https://flights.cathaypacific.com/destinations/en_CA/flights-to-philippines" target="_blank">Cathay Pacific</a></td>
+    <td><a href="https://supercatschedule.com/" target="_blank">SuperCat Ferry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-tagbilaran/" target="_blank">Port of Tagbilaran</a></td>
+    <td><a href="https://www.koreanair.com/id/en/promotion/list/2024/2401_welcome?kcid=rv_kul_ps_google_ke_id_en_240201_newmember_al_bra-brand-k0025&gad_source=1&gclid=CjwKCAiA8YyuBhBSEiwA5R3-E5WshfJNq9H1bv3vv_occPh1RIjTQbsosXfGoFZZ_3tbpj0H4vI3dxoCQ_IQAvD_BwE&gclsrc=aw.ds" target="_blank">Korean Air</a></td>
+    <td><a href="https://www.oceanjet.net/" target="_blank">OceanJet Ferry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-tubigon/" target="_blank">Port of Tubigon</a></td>
+    <td><a href="https://www.jejuair.net/flights/en-us/flights-to-philippines" target="_blank">Jeju Air</a></td>
+    <td><a href="https://12go.asia/en/travel/cebu/bohol?gad_source=1&gclid=CjwKCAiA8YyuBhBSEiwA5R3-EzZDP2KEEtJQQJaJqWGlcqMUPxdOD-bc1E9X1SyZxTwsWRkXzxZSsRoCx1AQAvD_BwE" target="_blank">12GO Ferry</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-ubay/" target="_blank">Port of Ubay</a></td>
+    <td><a href="https://flyasiana.com/C/PH/EN/index?site_preference=NORMAL" target="_blank">Asiana Airlines</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-talibon/" target="_blank">Port of Talibon</a></td>
+    <td><a href="https://flights.philippineairlines.com/en/flights-to-philippines" target="_blank">Philippine Airlines</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-jagna/" target="_blank">Port of Jagna</a></td>
+    <td><a href="https://www.cebupacificair.com/en-PH/" target="_blank">Cebu Air</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-getafe/" target="_blank">Port of Getafe</a></td>
+    <td><a href="https://www.airasia.com/promotions/ph/" target="_blank">Air Asia</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.boholtourismph.com/port-of-clarin/" target="_blank">Port of Clarin</a></td>
+    <td><a href="https://www.aircanada.com/en-ca/flights-to-philippines" target="_blank">Air Canada</a></td>
+  </tr>
+</table>
+
+<br>
+<p style="text-align: center" id="reviews"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+<br>
+</div>
+<br>
+
+<div class="contentfrst">
+<h2 style="text-align:center">Customer Reviews</h2>
+<img src="images/REVIEWS/REVIEWS.jpg" alt="Raya" width="600" height="2630" class="center">
+<br>
+	
+<p style="text-align: center" id="staff"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+<br>
+</div>
+
+<br>
+
+<div class="contentfrst">
+<h2 style="text-align:center">House Staff</h2>
+<h3 style="text-align:center">Maintenance Manager / GRO</h3>
+<p style="text-align:center"><a href="http://m.me/esperidion.tenio.73#" target="_blank">Espiridion Pelias Tenio</a></p>
+<img src="PHOTOS/Espiridion2.jpg" alt="Espiridion" width="300" height="279" class="center" style="border-radius: 12px">
+<br>
+<h3 style="text-align:center">Property Manager / Housekeeping</h3>
+<p style="text-align:center"><a href="http://m.me/nicanor.castro.376" target="_blank">Nicanor & Emily Castro</a></p>
+<img src="PHOTOS/NicEmi2.jpg" alt="Nicanor"  width="300" height="225" class="center" style="border-radius: 50%">
+
+<br>
+<p style="text-align: center" id="dive"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+<br>
+</div>
+
+<br>
+
+<div class="contentfrst">
+<h2 style="text-align:center">Dive Tours and Fees</h2>
+<p>Dive excursions are for certified divers  (<i><strong>C</strong> card holders</i>) only through a valid certifying agency - <strong>PADI</strong>, <strong>NAUI</strong>, <strong>SSI</strong>. Proof of certification is required. Last dive should be within less than a year otherwise a refresher is required.</p>
+<br>
+<p>Dives are done within Anda and Basdio sanctuary and should be booked same time when making the reservation. A deposit is required and refundable if cancelled 3 days before the scheduled dive.</p>
+<br>
+<p>If planning to rent equipments, inform us the sizes for BCD, wet suit,  mask and fins. Tanks and weights are included with the dive fee.</p>
+<br>
+<p><strong>Dive Fee:</strong> TBD from local dive operators</p>
+<br>
+<div id="wrapper">
+  <div id="sticky">
+
+  <div class="slideshow-container4">
+
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-1.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-2.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-3.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-4.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-5.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-6.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-7.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-8.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-9.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-10.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-11.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-12.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-13.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-14.jpg" style="width:500px;height:332px;">
+    </div>
+
+    <div class="mySlides4 fade4">
+      <img src="images/DIVE/dive-15.jpg" style="width:500px;height:332px;">
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span> 
+  <span class="dot4"></span>
+  <span class="dot4"></span>
+  <span class="dot4"></span>
+  <span class="dot4"></span>
+  <span class="dot4"></span>
+  <span class="dot4"></span>
+</div>
+
+<script>
+var slideIndex4 = 0;
+showSlides4();
+function showSlides4() {
+    var i;
+    var slides4 = document.getElementsByClassName("mySlides4");
+    var dots = document.getElementsByClassName("dot4");
+    for (i = 0; i < slides4.length; i++) {
+       slides4[i].style.display = "none";  
+    }
+    slideIndex4++;
+    if (slideIndex4 > slides4.length) {slideIndex4 = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active5", "");
+    }
+    slides4[slideIndex4-1].style.display = "block";  
+    dots[slideIndex4-1].className += " active5";
+    setTimeout(showSlides4, 3000); // Change image every 2 seconds
+}
+</script>
+
+<br  id="imagemap">
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+
+</div>
+
+<br>
+<div class="contentfrst">
+
+<h2 style="text-align:center">Anda Dive Sites</h2>
+<div class="popupcontainer">
+<img src="images/DiveMap.jpg" alt="Dive Map" usemap="#divemap" width="500" height="333">
+
+<map name="divemap">
+  <div class="tooltip">
+	<area shape="circle" coords="12,170,20" alt="Pogaling Site">
+	<div class="content">
+	   <h3>Pogaling Site</h3>
+	   <p><img src="THUMBNAILS/dive1.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Simple shallow (max. 14m) dive. Large area of stone 
+	      coral forest with small channels to pass. Open for divers 
+	      only since 2001 and specially protected.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="17,193,20" alt="Panorama Site">
+	<div class="content1">
+	   <h3>Panorama reef</h3>
+	   <p><img src="THUMBNAILS/dive6.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Steep wall 3m to more than 30m. Limited suitable for beginners. 
+	      Nicely populated steep wall with a panoramic view into the open water. Open for divers 
+	      only since 2001 and specially protected by Marine Park regulations.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="21,210,20" alt="Marine Park">
+	<div class="content2">
+	   <h3>Marine Park</h3>
+	   <p><img src="THUMBNAILS/dive7.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Coral Wall down to 30 meter covered with pristine hard corals. Lots of animals hide in the corals, like Scorpion fish, Moray eels and small critters. When you are lucky you can encounter a Sea Snake here.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="30,233,20" alt="Wonderwall Site">
+	<div class="content3">
+	   <h3>Wonderwall Site</h3>
+	   <p><img src="THUMBNAILS/dive2.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Simple dive site, nice steep wall and grottos. Suitable for beginners when observing the depths limits. A small wreck and fresh water source in 27m.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="36,255,20" alt="Cavern's Dive Site">
+	<div class="content4">
+	   <h3>Cavern Site</h3>
+	   <p><img src="THUMBNAILS/dive4.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Start like dive site Wonder Wall, but southerly direction. Simple dive site, nice steep wall and many grottos. Suitable for beginners when observing the depths limits. Many different fish, chance to meet "Bruno", a giant octopus.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="46,264,20" alt="Coco White South Site">
+	<div class="content5">
+	   <h3>Coco White South Site</h3>
+	   <p><img src="THUMBNAILS/dive13.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Simple dive site with nicely populated steep wall. Suitable for beginners when observing the depths limits. Giant shells, Sergeant Majors, Naked snails, Spanish dancing snails, barracuda etc.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="63,282,20" alt="Coco White North Site">
+	<div class="content6">
+	   <h3>Coco White North Site</h3>
+	   <p><img src="THUMBNAILS/dive8.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Simple dive site with nicely populated steep wall. Suitable for beginners when observing the depths limits. Giant shells, Sergeant Majors, Naked snails, Spanish dancing snails, barracuda etc.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="74,295,20" alt="Lumayag Site">
+	<div class="content7">
+	   <h3>Lumayag Dive Site</h3>
+	   <p><img src="THUMBNAILS/dive12.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Very attractive steep wall from 4m to 30m and a snow area in 30m (Black corals forest). It slopes down to +40m. Suitable for beginners when observing the depths limits. Dive ends at dive site Paradise Garden, passing dive site Snappers Cave. Here the main current hits the underwater landscape, causing a variety of flora and fauna. Chance of big fish in the open water.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="89,319,20" alt="Snapper's Cave Site">
+	<div class="content8">
+	   <h3><img src="THUMBNAILS/dive14.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Snapper's Cave Dive </h3>
+	   <p>Very attractive steep wall from 4m to 30m and a wide cave in 27m. Suitable for beginners when observing the depths limits. Good for preparation to dive site Neptune House. The dive connects to dive site Paradise Garden. The experienced diver can enter the cave. Light mandatory.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="108,325,20" alt="Coral Garden Site">
+	<div class="content9">
+	   <h3>Coral Garden Dive Site</h3>
+	   <p><img src="THUMBNAILS/dive3.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Has weird and wonderful creatures from pygmy seahorses to giant cuttlefish, banded seasnakes, all kinds of nudibranchs and colourful reef fish.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="141,318,20" alt="Magic Ocean house reef">
+	<div class="content10">
+	   <h3>Magic Ocean house reef</h3>
+	   <p><img src="THUMBNAILS/dive16.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Teemed with life and is great for both divers and snorkelers and easy to access directly from shore. There is a 16-kilometer coastline to explore underwater, with a mix of walls, slopes and sandy bottom (muck) to suit all your diving needs.
+</p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="167,305,20" alt="Banilad Site">
+	<div class="content11">
+	   <h3>Banilad Dive Site</h3>
+	   <p><img src="THUMBNAILS/dive17.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Steep wall 3m to more than 30m. Limited suitable for beginners. 
+	      Nicely populated steep wall with a panoramic view into the open water.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="205,297,20" alt="Dap-Dap Site">
+	<div class="content12">
+	   <h3>Dap-Dap Dive Site</h3>
+	   <p><img src="THUMBNAILS/dive15.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Relatively shallow dive, suitable as second dive of the day. Best suitable for beginners or as introduction on the first day of your vacation. Nicely populated steep wall. Occasionally barracudas, but more the tiny things. Many tiny naked snailes and sea spiders, chances of schools of hump head parrot fishes and much more.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="246,295,20" alt="Virgen Site">
+	<div class="content13">
+	   <h3>Virgen House reef</h3>
+	   <p><img src="THUMBNAILS/dive9.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Virgen house reef has a steep wall is densely populated by Corals. Limited suitable for beginners because of depths and currents. Rich with fish life. Chances of turtles
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="290,291,20" alt="Bacong Site">
+	<div class="content14">
+	   <h3>Bacong Dive Site</h3>
+	   <p><img src="THUMBNAILS/dive10.jpg" alt="Diver" style="width=200px; height=150px; float:right;">Here the steep wall is densely populated by corals. In limits suitable for beginners, because of the depths and currents. on the other side this spot is full of life.
+	   </p>
+	</div>
+  </div>
+  <div class="tooltip">
+	<area shape="circle" coords="337,280,20" alt="Neptune House Site">
+	<div class="content15">
+	   <h3>Neptunes House Site</h3>
+	   <p><img src="THUMBNAILS/dive5.jpg" alt="Diver" style="width=200px; height=150px; float:right;">This diving spot is a Cave. The entry into the cave starts at 31m, time to spend in the cave 8-10 min. Sometimes you can find the sleeping Neptune, but for sure several Lobsters, fishes looking for protection, and other night active animals. There's a Chimney to the outside of the cave: getting up on a steep wall with less coral population. The roof of the reef is populated by Blue spotted stingrays.
+	   </p>
+	</div>
+  </div>
+
+</map>
+
+</div>
+
+<br>
+<p style="text-align: center"  id="fishing"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+
+</div>
+
+<br>
+
+<div class="contentfrst">
+<h2 style="text-align:center">Guindulman Bay Fishing</h2>
+<p>Fishing in Guindulman Bay is an angler's paradise. With the abundance of variety of fishes (e.g.; Giant Trevallies, Amber Jacks, Spanish Mackerel-Wahoo i.e. Tangigue in local dialect, Tunas, Snappers and Gourpers).
+Anglers will never get enough of it. Just bring your fishing rods and a handful of baits and we'll bring you to find Nemo, the big games rather!
+FYI We'll be renting out and selling baits in the future.</p>
+<br>
+<p><strong>Fishing Fee:</strong> &#8369;2,500 / Day (max. 6 px)</p>
+<br>
+<br>
+<div id="wrapper">
+  <div id="sticky">
+
+  <div class="slideshow-container3">
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-1.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-2.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-3.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-4.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-5.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-6.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-7.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-8.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-9.jpg" style="width:500px;height:284px;">
+    </div>
+
+    <div class="mySlides3 fade3">
+      <img src="images/FISHING/FISHING-10.jpg" style="width:500px;height:284px;">
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span> 
+  <span class="dot3"></span>
+</div>
+
+<script>
+var slideIndex3 = 0;
+showSlides3();
+function showSlides3() {
+    var i;
+    var slides3 = document.getElementsByClassName("mySlides3");
+    var dots = document.getElementsByClassName("dot3");
+    for (i = 0; i < slides3.length; i++) {
+       slides3[i].style.display = "none";  
+    }
+    slideIndex3++;
+    if (slideIndex3 > slides3.length) {slideIndex3 = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active5", "");
+    }
+    slides3[slideIndex3-1].style.display = "block";  
+    dots[slideIndex3-1].className += " active5";
+    setTimeout(showSlides3, 3000); // Change image every 2 seconds
+}
+</script>
+
+<p style="text-align: center"  id="guestphotos"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+
+</div>
+
+<br>
+
+<div class="contentfrst">
+<h4 style="text-align:center">GUEST PHOTOS</h4>
+
+<!-- NOTE: None of the included images are mine and I take no credit for them!! -->
+<div id="wrapper">
+  <div id="sticky">
+
+<ul id="body">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest1T.jpg">
+        </div>
+        <label for="img-22" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-2" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest2T.jpg">
+        </div>
+        <label for="img-1" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-3" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest3T.jpg">
+        </div>
+        <label for="img-2" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-4" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest4T.jpg">
+        </div>
+        <label for="img-3" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-5" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest5T.jpg">
+        </div>
+        <label for="img-4" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-6" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest6T.jpg">
+        </div>
+        <label for="img-5" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-7" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-7" checked />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest7T.jpg">
+        </div>
+        <label for="img-6" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-8" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-8" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest8T.jpg">
+        </div>
+        <label for="img-7" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-9" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-9" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest9T.jpg">
+        </div>
+        <label for="img-8" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-10" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-10" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest10T.jpg">
+        </div>
+        <label for="img-9" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-11" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-11" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest11T.jpg">
+        </div>
+        <label for="img-10" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-12" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-12" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest12T.jpg">
+        </div>
+        <label for="img-11" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-13" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-13" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest13T.jpg">
+        </div>
+        <label for="img-12" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-14" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-14" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest14T.jpg">
+        </div>
+        <label for="img-13" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-15" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-15" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest15T.jpg">
+        </div>
+        <label for="img-14" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-16" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-16" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest16T.jpg">
+        </div>
+        <label for="img-15" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-17" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-17" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest17T.jpg">
+        </div>
+        <label for="img-16" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-18" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-18" checked />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest18T.jpg">
+        </div>
+        <label for="img-17" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-19" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-19" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest19T.jpg">
+        </div>
+        <label for="img-18" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-20" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-20" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest20T.jpg">
+        </div>
+        <label for="img-19" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-21" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-21" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest21T.jpg">
+        </div>
+        <label for="img-20" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-22" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-22" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest22T.jpg">
+        </div>
+        <label for="img-21" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-23" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+    <input type="radio" name="radio-btn" id="img-23" />
+    <li id="img-container">
+        <div id="img-inner">
+            <img src="images/GUESTPHOTOS/SMALL/Guest23T.jpg">
+        </div>
+        <label for="img-22" class="sb-bignav" title="Previous">&#x2039;</label>
+        <label for="img-1" class="sb-bignav" title="Next">&#x203a;</label>
+    </li>
+    
+</ul>
+
+</div>
+</div>
+<p style="text-align: center"  id="boholtour"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+</div>
+
+
+<br>
+
+<div class="contentfrst">
+
+<h2 style="text-align:center">Bohol Attraction Tours</h2>
+
+<p>Planning to visit Bohol major attractions during your down time? Let us take you to places like Chocolate hills, Loboc river,
+Cabagnow pool cave, Kawasan falls, Baclayon Church and Sandugo the blood compact monument. At a very reasonable fee, travel
+safely in comfort and style. Let our experienced guide lead you to a vacation you'll never forget.
+</p>
+<br>
+<p><strong>Tour Fee:</strong> &#8369;1,000 / Person</p>
+
+<br>
+<div id="wrapper">
+  <div id="sticky">
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE1.jpg" style="width:528px;height:352px;">
+     <div class="text">Chocolate Hils</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE2.jpg" style="width:528px;height:352px;">
+     <div class="text">Philippine Tarsier</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE3.jpg" style="width:528px;height:352px;">
+     <div class="text">Loboc River</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE4.jpg" style="width:528px;height:352px;">
+     <div class="text"> Bilar Forest</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE5.jpg" style="width:528px;height:352px;">
+     <div class="text">Panglao Dumaluan beach</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE6.jpg" style="width:528px;height:352px;">
+     <div class="text">Hinagdanan cave</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE7.jpg" style="width:528px;height:352px;">
+     <div class="text"> “Sandugo” Blood Compact Shrine</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE8.jpg" style="width:528px;height:352px;">
+     <div class="text">Baclayon Church</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE9.jpg" style="width:528px;height:352px;">
+     <div class="text"> Cabagnow Cave</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/ATTRACTIONS/SMALL/SLIDE10.jpg" style="width:528px;height:352px;">
+     <div class="text">Bohol Kawasan Falls</div>
+    </div>
+
+  </div>
+  </div>
+</div>
+<br>
+
+<div style="text-align:center"; id="hikingroutes">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active5", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active5";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+<br  id="Accommodation">
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"></i>HOME</a></p>
+
+</div>
+
+<br>
+
+<div class="contentfrst">
+
+<h2 style="text-align:center">Accommodation</h2>
+<ul class="regnav">
+  <li><b>C</b>lose to amenities - CDO Bank, Guindulman Food Park, Laundromats, Church, Public market and more</li>
+  <li><b>P</b>otential location for a SCUBA Diving Operation or any water activities</li>
+  <li><b>B</b>reathtaking view of the ocean and the neighboring island Camiguin</li>
+  <li><b>B</b>each accessible from your backyard</li>
+  <li><b>C</b>lose to Bohol circumferential road</li>
+  <li><b>F</b>ully furnished beach house</li>
+	<ul class="regnav">
+	   <li><i>- a</i>ir conditioned rooms</li>
+	   <li><i>- h</i>eated showers</li>
+	   <li><i>- g</i>as range</li>
+	   <li><i>- m</i>icro wave oven</li>
+	   <li><i>- r</i>efrigerator</li>
+	   <li><i>- 65"</i> wide screen smart tv</li>
+	   <li><i>- h</i>igh speed internet access</li>
+  	   <li><i>- a</i>utomatic remote gate opener</li>
+  	   <li><i>- p</i>ressurized water tank</li>
+  	   <li><i>- o</i>utdoor shower</li>
+  	   <li><i>- g</i>round floor comfort/laundry room</li>
+	   <li><i>- p</i>arking garage</li>
+	</ul>
+</ul>
+<br>
+<br>
+<div id="wrapper">
+  <div id="sticky">
+
+  <div class="slideshow-container2">
+
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse1.jpg" style="width:550px;height:248px;">
+      <div class="text">View at the terrace</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse2.jpg" style="width:550px;height:248px;">
+      <div class="text">View at the terrace</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse3.jpg" style="width:550px;height:248px;">
+      <div class="text">The living room</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse4.jpg" style="width:550px;height:248px;">
+      <div class="text">The kitchen and dining area</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse5.jpg" style="width:550px;height:248px;">
+      <div class="text">View from the hallway</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse6.jpg" style="width:550px;height:248px;">
+      <div class="text">View from the hallway</div>
+   </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse7.jpg" style="width:550px;height:248px;">
+      <div class="text">Master's bedroom</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse8.jpg" style="width:550px;height:248px;">
+      <div class="text">Guest's bedroom</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse9.jpg" style="width:550px;height:248px;">
+      <div class="text">Master's bathroom</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse10.jpg" style="width:550px;height:248px;">
+      <div class="text">Groundfloor view</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse11.jpg" style="width:550px;height:248px;">
+      <div class="text">Groundfloor view</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse12.jpg" style="width:550px;height:248px;">
+      <div class="text">Rear gate towards seawall</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse13.jpg" style="width:550px;height:248px;">
+      <div class="text">Remote controlled front gate</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse14.jpg" style="width:550px;height:248px;">
+      <div class="text">Outside view from the seawall</div>
+    </div>
+
+    <div class="mySlides2 fade2">
+      <img src="images/CONSTRUCTION/SMALL/BHouse15.jpg" style="width:550px;height:248px;">
+      <div class="text">The beach at the back of the house</div>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span> 
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+  <span class="dot2"></span>
+</div>
+
+<script>
+var slideIndex2 = 0;
+showSlides2();
+function showSlides2() {
+    var i;
+    var slides2 = document.getElementsByClassName("mySlides2");
+    var dots = document.getElementsByClassName("dot2");
+    for (i = 0; i < slides2.length; i++) {
+       slides2[i].style.display = "none";  
+    }
+    slideIndex2++;
+    if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active5", "");
+    }
+    slides2[slideIndex2-1].style.display = "block";  
+    dots[slideIndex2-1].className += " active5";
+    setTimeout(showSlides2, 3000); // Change image every 2 seconds
+}
+</script>
+
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"; id="reservation"></i>HOME</a></p>
+</div>
+
+<br>
+<div class="contentfrst">
+<h2 style="text-align:center">GUEST RESERVATION</h2>
+<div class="container">
+  <form id="reservation-form" action="/api/reservations" method="POST">
+    <p id="reservation-status" role="status" aria-live="polite">Connecting to reservations…</p>
+    <div hidden aria-hidden="true"><label>Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
+    <noscript>JavaScript is required for online reservations. Please contact the property directly.</noscript>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" maxlength="100" name="fname" placeholder="Your name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" maxlength="100" name="lname" placeholder="Your last name.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" maxlength="254" name="email" placeholder="Your email.." required>
+      </div>
+    </div>
+	<div class="row">
+        <input type="button" id="check-availability" value="Check Availability" disabled>
+	</div>
+     <div class="row">
+      <div class="col-25">
+        <label for="reservestartdate">Reservation Start Date</label>
+      </div>
+      <div class="col-75">
+        <input type="date" id="reservestartdate" name="reservestartdate" required>
+      </div>
+     </div>
+     <div class="row">
+      <div class="col-25">
+        <label for="reserveenddate">Reservation End Date</label>
+      </div>
+      <div class="col-75">
+        <input type="date" id="reserveenddate" name="reserveenddate" required>
+      </div>
+     </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="referralname">Referral Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="referralname" maxlength="200" name="referralname" placeholder="Enter referral name..">
+      </div>
+    </div>
+   <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country" required>
+          <option value="">Choose Country of Origin..</option>
+          <option value="africa">Africa</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="china">China</option>
+          <option value="germany">Germany</option>
+          <option value="uk">Great Britain UK</option>
+          <option value="israel">Israel</option>
+          <option value="japan">Japan</option>
+          <option value="korea">Korea</option>
+          <option value="russia">Russia</option>
+          <option value="saudi">Saudi Arabia</option>
+          <option value="usa">USA</option>
+       </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="message">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" maxlength="4000" name="message" placeholder="Write message.." style="height:200px" required></textarea>
+      </div>
+    </div>
+    <div class="col-75">
+	    <div id="reservation-captcha"></div>
+    </div>
+    <div class="row">
+      <input type="reset" value="Reset"><input type="submit" value="Submit" disabled>
+    </div>
+  </form>
+</div>
+
+<br>
+<p>Reservation requests require confirmation from the property. Please confirm your dates and payment instructions before sending a deposit.</p>
+<p><b><i>NOTE:</i></b>&nbsp;&nbsp;To hold spot, a  &#8369;1,500 deposit is needed. Just scan the QRCodes below to make deposit.<p>
+<table class="center">
+  <tr>
+    <td><a href="index.html#!" target="_blank" onClick="window.open('images/QRCODES/GCashQR.jpg','pagename','resizable,height=500,width=400'); return false;"><img src="images/QRCODES/GCashQR.jpg" alt="Snow"  style="width:100px;height:172px;" class="qr-resize cursor"></a></td>
+    <td><a href="index.html#!" target="_blank" onClick="window.open('images/QRCODES/MetroBankQR.jpg','pagename','resizable,height=500,width=400'); return false;"><img src="images/QRCODES/MetroBankQR.jpg" alt="Forest"  style="width:100px;height:172px;" class="qr-resize cursor"></a></td>
+  </tr>
+</table>
+
+
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"; id="location"></i>HOME</a></p>
+
+</div>
+<br>
+
+<div class="contentfrst">
+<h2 style="text-align:center">Geographical Location</h2>
+
+<div class="map-responsive">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d4991.888579573441!2d124.47981399999999!3d9.759949!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNDUnMzUuOCJOIDEyNMKwMjgnNTYuNiJF!5e1!3m2!1sen!2sca!4v1707690325826!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+<br>
+<p style="text-align: center"><a href="index.html#home"><i class="fa fa-fw fa-home"; id="location"></i>HOME</a></p>
+
+</div>
+
+<br>
+
+
+</div> 
+
+<br>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myNavContainer");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div id="myCANUMANTADModal" class="modal">
+  <span class="close cursor" onclick="closeCANUMANTADModal()">&times;</span>
+  <div class="modal-content3">
+
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00003.jpg" style="width:100%">
+    </div>
+    
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00005.jpg" style="width:100%">
+    </div>
+     
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00008.jpg" style="width:100%">
+    </div>
+
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00009.jpg" style="width:100%">
+    </div>
+    <div class="CANUMANTADSlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/CANUMANTAD/vlcsnap-00010.jpg" style="width:100%">
+    </div>
+    
+   
+    <a class="prev" onclick="plusCANUMANTADSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusCANUMANTADSlides(1)">&#10095;</a>
+
+    <div class="caption-container3">
+      <p id="caption3"></p>
+    </div>
+
+
+ <div class="row">
+   <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00001.jpg" style="width:100%" onclick="currentCANUMANTADSlide(1)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00002.jpg" style="width:100%" onclick="currentCANUMANTADSlide(2)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00003.jpg" style="width:100%" onclick="currentCANUMANTADSlide(3)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00004.jpg" style="width:100%" onclick="currentCANUMANTADSlide(4)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00005.jpg" style="width:100%" onclick="currentCANUMANTADSlide(5)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00007.jpg" style="width:100%" onclick="currentCANUMANTADSlide(6)" alt="CAN-UMANTAD FALLS">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00008.jpg" style="width:100%" onclick="currentCANUMANTADSlide(7)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00009.jpg" style="width:100%" onclick="currentCANUMANTADSlide(8)" alt="CAN-UMANTAD FALLS">
+    </div>
+    <div class="column">
+      <img class="demo3 cursor" src="images/CANUMANTAD/vlcsnap-00010.jpg" style="width:100%" onclick="currentCANUMANTADSlide(9)" alt="CAN-UMANTAD FALLS">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openCANUMANTADModal() {
+  document.getElementById("myCANUMANTADModal").style.display = "block";
+}
+
+function closeCANUMANTADModal() {
+  document.getElementById("myCANUMANTADModal").style.display = "none";
+}
+
+var CnumntdslideIndex = 1;
+showCANUMANTADSlides(CnumntdslideIndex);
+
+function plusCANUMANTADSlides(n) {
+  showCANUMANTADSlides(CnumntdslideIndex += n);
+}
+
+function currentCANUMANTADSlide(n) {
+  showCANUMANTADSlides(CnumntdslideIndex = n);
+}
+
+function showCANUMANTADSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("CANUMANTADSlides");
+  var dots = document.getElementsByClassName("demo3");
+  var captionText = document.getElementById("caption3");
+  if (n > slides.length) {CnumntdslideIndex = 1}
+  if (n < 1) {CnumntdslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[CnumntdslideIndex-1].style.display = "block";
+  dots[CnumntdslideIndex-1].className += " active";
+  captionText.innerHTML = dots[CnumntdslideIndex-1].alt;
+}
+</script>
+
+
+<div id="CabantianModal" class="modal">
+  <span class="close cursor" onclick="closeCabantianModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="CabantianSlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="CabantianSlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="CabantianSlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="CabantianSlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+    
+    <div class="CabantianSlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00009.jpg" style="width:100%">
+    </div>
+    
+    <div class="CabantianSlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00011.jpg" style="width:100%">
+    </div>
+ 
+    <div class="CabantianSlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00012.jpg" style="width:100%">
+    </div>
+
+    <div class="CabantianSlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00013.jpg" style="width:100%">
+    </div>
+
+    <div class="CabantianSlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/CABANTIAN/vlcsnap-00015.jpg" style="width:100%">
+    </div>
+    
+   
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+ <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00001.jpg" style="width:100%" onclick="currentCabantianSlide(1)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00002.jpg" style="width:100%" onclick="currentCabantianSlide(2)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00004.jpg" style="width:100%" onclick="currentCabantianSlide(3)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00007.jpg" style="width:100%" onclick="currentCabantianSlide(4)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00009.jpg" style="width:100%" onclick="currentCabantianSlide(5)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00011.jpg" style="width:100%" onclick="currentCabantianSlide(6)" alt="CABANTIAN">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00012.jpg" style="width:100%" onclick="currentCabantianSlide(7)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00013.jpg" style="width:100%" onclick="currentCabantianSlide(8)" alt="CABANTIAN">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/CABANTIAN/vlcsnap-00015.jpg" style="width:100%" onclick="currentCabantianSlide(9)" alt="CABANTIAN">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openCabantianModal() {
+  document.getElementById("CabantianModal").style.display = "block";
+}
+
+function closeCabantianModal() {
+  document.getElementById("CabantianModal").style.display = "none";
+}
+
+var CbntanslideIndex = 1;
+showSlides(CbntanslideIndex);
+
+function plusSlides(n) {
+  showSlides(CbntanslideIndex += n);
+}
+
+function currentCabantianSlide(n) {
+  showSlides(CbntanslideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("CabantianSlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {CbntanslideIndex = 1}
+  if (n < 1) {CbntanslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[CbntanslideIndex-1].style.display = "block";
+  dots[CbntanslideIndex-1].className += " active";
+  captionText.innerHTML = dots[CbntanslideIndex-1].alt;
+}
+</script>
+
+
+<div id="myCabaocanModal" class="modal">
+  <span class="close cursor" onclick="closeCabaocanModal()">&times;</span>
+  <div class="modal-content6">
+
+    <div class="CabaocanSlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="CabaocanSlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="CabaocanSlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00003.jpg" style="width:100%">
+    </div>
+    
+    <div class="CabaocanSlides">
+      <div class="numbertext">4 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="CabaocanSlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00005.jpg" style="width:100%">
+    </div>
+     
+    <div class="CabaocanSlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00006.jpg" style="width:100%">
+    </div>
+
+    <div class="CabaocanSlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+
+    <div class="CabaocanSlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00008.jpg" style="width:100%">
+    </div>
+    <div class="CabaocanSlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00009.jpg" style="width:100%">
+    </div>
+    <div class="CabaocanSlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00010.jpg" style="width:100%">
+    </div>
+    <div class="CabaocanSlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00011.jpg" style="width:100%">
+    </div>
+    <div class="CabaocanSlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="images/CABAOCAN/vlcsnap-00012.jpg" style="width:100%">
+    </div>
+    
+   
+    <a class="prev" onclick="plusCabaocanSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusCabaocanSlides(1)">&#10095;</a>
+
+    <div class="caption-container6">
+      <p id="caption6"></p>
+    </div>
+
+
+ <div class="row">
+   <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00001.jpg" style="width:100%" onclick="currentCabaocanSlide(1)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00002.jpg" style="width:100%" onclick="currentCabaocanSlide(2)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00003.jpg" style="width:100%" onclick="currentCabaocanSlide(3)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00004.jpg" style="width:100%" onclick="currentCabaocanSlide(4)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00005.jpg" style="width:100%" onclick="currentCabaocanSlide(5)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00006.jpg" style="width:100%" onclick="currentCabaocanSlide(6)" alt="Cabaocan River">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00007.jpg" style="width:100%" onclick="currentCabaocanSlide(7)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00008.jpg" style="width:100%" onclick="currentCabaocanSlide(8)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00009.jpg" style="width:100%" onclick="currentCabaocanSlide(9)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00010.jpg" style="width:100%" onclick="currentCabaocanSlide(10)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00011.jpg" style="width:100%" onclick="currentCabaocanSlide(11)" alt="Cabaocan River">
+    </div>
+    <div class="column">
+      <img class="demo6 cursor" src="images/CABAOCAN/vlcsnap-00012.jpg" style="width:100%" onclick="currentCabaocanSlide(12)" alt="Cabaocan River">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openCabaocanModal() {
+  document.getElementById("myCabaocanModal").style.display = "block";
+}
+
+function closeCabaocanModal() {
+  document.getElementById("myCabaocanModal").style.display = "none";
+}
+
+var CabaocanslideIndex = 1;
+showCabaocanSlides(CabaocanslideIndex);
+
+function plusCabaocanSlides(n) {
+  showCabaocanSlides(CabaocanslideIndex += n);
+}
+
+function currentCabaocanSlide(n) {
+  showCabaocanSlides(CabaocanslideIndex = n);
+}
+
+function showCabaocanSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("CabaocanSlides");
+  var dots = document.getElementsByClassName("demo6");
+  var captionText = document.getElementById("caption6");
+  if (n > slides.length) {CabaocanslideIndex = 1}
+  if (n < 1) {CabaocanslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[CabaocanslideIndex-1].style.display = "block";
+  dots[CabaocanslideIndex-1].className += " active";
+  captionText.innerHTML = dots[CabaocanslideIndex-1].alt;
+}
+</script>
+
+
+
+<div id="myCatungawanModal" class="modal">
+  <span class="close cursor" onclick="closeCatungawanModal()">&times;</span>
+  <div class="modal-content7">
+
+    <div class="CatungawanSlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="CatungawanSlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="CatungawanSlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00003.jpg" style="width:100%">
+    </div>
+    
+    <div class="CatungawanSlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="CatungawanSlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00005.jpg" style="width:100%">
+    </div>
+     
+    <div class="CatungawanSlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00006.jpg" style="width:100%">
+    </div>
+
+    <div class="CatungawanSlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+
+    <div class="CatungawanSlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00008.jpg" style="width:100%">
+    </div>
+    <div class="CatungawanSlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/CATUNGAWAN/vlcsnap-00009.jpg" style="width:100%">
+    </div>
+    
+   
+    <a class="prev" onclick="plusCatungawanSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusCatungawanSlides(1)">&#10095;</a>
+
+    <div class="caption-container7">
+      <p id="caption7"></p>
+    </div>
+
+
+ <div class="row">
+   <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00001.jpg" style="width:100%" onclick="currentCatungawanSlide(1)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00002.jpg" style="width:100%" onclick="currentCatungawanSlide(2)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00003.jpg" style="width:100%" onclick="currentCatungawanSlide(3)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00004.jpg" style="width:100%" onclick="currentCatungawanSlide(4)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00005.jpg" style="width:100%" onclick="currentCatungawanSlide(5)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00006.jpg" style="width:100%" onclick="currentCatungawanSlide(6)" alt="Catungawan Scenery">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00007.jpg" style="width:100%" onclick="currentCatungawanSlide(7)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00008.jpg" style="width:100%" onclick="currentCatungawanSlide(8)" alt="Catungawan Scenery">
+    </div>
+    <div class="column">
+      <img class="demo7 cursor" src="images/CATUNGAWAN/vlcsnap-00009.jpg" style="width:100%" onclick="currentCatungawanSlide(9)" alt="Catungawan Scenery">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openCatungawanModal() {
+  document.getElementById("myCatungawanModal").style.display = "block";
+}
+
+function closeCatungawanModal() {
+  document.getElementById("myCatungawanModal").style.display = "none";
+}
+
+var CatungawanslideIndex = 1;
+showCatungawanSlides(CatungawanslideIndex);
+
+function plusCatungawanSlides(n) {
+  showCatungawanSlides(CatungawanslideIndex += n);
+}
+
+function currentCatungawanSlide(n) {
+  showCatungawanSlides(CatungawanslideIndex = n);
+}
+
+function showCatungawanSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("CatungawanSlides");
+  var dots = document.getElementsByClassName("demo7");
+  var captionText = document.getElementById("caption7");
+  if (n > slides.length) {CatungawanslideIndex = 1}
+  if (n < 1) {CatungawanslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[CatungawanslideIndex-1].style.display = "block";
+  dots[CatungawanslideIndex-1].className += " active";
+  captionText.innerHTML = dots[CatungawanslideIndex-1].alt;
+}
+</script>
+
+
+<div id="myLanthaiModal" class="modal">
+  <span class="close cursor" onclick="closeLanthaiModal()">&times;</span>
+  <div class="modal-content8">
+
+    <div class="LanthaiSlides">
+      <div class="numbertext">1 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="LanthaiSlides">
+      <div class="numbertext">2 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="LanthaiSlides">
+      <div class="numbertext">3 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00003.jpg" style="width:100%">
+    </div>
+    
+    <div class="LanthaiSlides">
+      <div class="numbertext">4 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="LanthaiSlides">
+      <div class="numbertext">5 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00005.jpg" style="width:100%">
+    </div>
+     
+    <div class="LanthaiSlides">
+      <div class="numbertext">6 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00006.jpg" style="width:100%">
+    </div>
+
+    <div class="LanthaiSlides">
+      <div class="numbertext">7 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+
+    <div class="LanthaiSlides">
+      <div class="numbertext">8 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00008.jpg" style="width:100%">
+    </div>
+    <div class="LanthaiSlides">
+      <div class="numbertext">9 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00009.jpg" style="width:100%">
+    </div>
+    <div class="LanthaiSlides">
+      <div class="numbertext">10 / 10</div>
+      <img src="images/LANTHAI/vlcsnap-00010.jpg" style="width:100%">
+    </div>
+   
+    <a class="prev" onclick="plusLanthaiSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusLanthaiSlides(1)">&#10095;</a>
+
+    <div class="caption-container8">
+      <p id="caption8"></p>
+    </div>
+
+
+ <div class="row">
+   <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00001.jpg" style="width:100%" onclick="currentLanthaiSlide(1)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00002.jpg" style="width:100%" onclick="currentLanthaiSlide(2)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00003.jpg" style="width:100%" onclick="currentLanthaiSlide(3)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00004.jpg" style="width:100%" onclick="currentLanthaiSlide(4)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00005.jpg" style="width:100%" onclick="currentLanthaiSlide(5)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00006.jpg" style="width:100%" onclick="currentLanthaiSlide(6)" alt="Lanthai Hill">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00007.jpg" style="width:100%" onclick="currentLanthaiSlide(7)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00008.jpg" style="width:100%" onclick="currentLanthaiSlide(8)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00009.jpg" style="width:100%" onclick="currentLanthaiSlide(9)" alt="Lanthai Hill">
+    </div>
+    <div class="column">
+      <img class="demo8 cursor" src="images/LANTHAI/vlcsnap-00010.jpg" style="width:100%" onclick="currentLanthaiSlide(10)" alt="Lanthai Hill">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openLanthaiModal() {
+  document.getElementById("myLanthaiModal").style.display = "block";
+}
+
+function closeLanthaiModal() {
+  document.getElementById("myLanthaiModal").style.display = "none";
+}
+
+var LanthaislideIndex = 1;
+showLanthaiSlides(LanthaislideIndex);
+
+function plusLanthaiSlides(n) {
+  showLanthaiSlides(LanthaislideIndex += n);
+}
+
+function currentLanthaiSlide(n) {
+  showLanthaiSlides(LanthaislideIndex = n);
+}
+
+function showLanthaiSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("LanthaiSlides");
+  var dots = document.getElementsByClassName("demo8");
+  var captionText = document.getElementById("caption8");
+  if (n > slides.length) {LanthaislideIndex = 1}
+  if (n < 1) {LanthaislideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[LanthaislideIndex-1].style.display = "block";
+  dots[LanthaislideIndex-1].className += " active";
+  captionText.innerHTML = dots[LanthaislideIndex-1].alt;
+}
+</script>
+
+
+<div id="myLombogModal" class="modal">
+  <span class="close cursor" onclick="closeLombogModal()">&times;</span>
+  <div class="modal-content9">
+
+    <div class="LombogSlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="LombogSlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="LombogSlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00003.jpg" style="width:100%">
+    </div>
+    
+    <div class="LombogSlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="LombogSlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00005.jpg" style="width:100%">
+    </div>
+     
+    <div class="LombogSlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00006.jpg" style="width:100%">
+    </div>
+
+    <div class="LombogSlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+
+    <div class="LombogSlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00008.jpg" style="width:100%">
+    </div>
+    <div class="LombogSlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/LOMBOG/vlcsnap-00009.jpg" style="width:100%">
+    </div>
+   
+    <a class="prev" onclick="plusLombogSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusLombogSlides(1)">&#10095;</a>
+
+    <div class="caption-container9">
+      <p id="caption9"></p>
+    </div>
+
+
+ <div class="row">
+   <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00001.jpg" style="width:100%" onclick="currentLombogSlide(1)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00002.jpg" style="width:100%" onclick="currentLombogSlide(2)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00003.jpg" style="width:100%" onclick="currentLombogSlide(3)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00004.jpg" style="width:100%" onclick="currentLombogSlide(4)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00005.jpg" style="width:100%" onclick="currentLombogSlide(5)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00006.jpg" style="width:100%" onclick="currentLombogSlide(6)" alt="Lombog Scenery">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00007.jpg" style="width:100%" onclick="currentLombogSlide(7)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00008.jpg" style="width:100%" onclick="currentLombogSlide(8)" alt="Lombog Scenery">
+    </div>
+    <div class="column">
+      <img class="demo9 cursor" src="images/LOMBOG/vlcsnap-00009.jpg" style="width:100%" onclick="currentLombogSlide(9)" alt="Lombog Scenery">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openLombogModal() {
+  document.getElementById("myLombogModal").style.display = "block";
+}
+
+function closeLombogModal() {
+  document.getElementById("myLombogModal").style.display = "none";
+}
+
+var LombogslideIndex = 1;
+showLombogSlides(LombogslideIndex);
+
+function plusLombogSlides(n) {
+  showLombogSlides(LombogslideIndex += n);
+}
+
+function currentLombogSlide(n) {
+  showLombogSlides(LombogslideIndex = n);
+}
+
+function showLombogSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("LombogSlides");
+  var dots = document.getElementsByClassName("demo9");
+  var captionText = document.getElementById("caption9");
+  if (n > slides.length) {LombogslideIndex = 1}
+  if (n < 1) {LombogslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[LombogslideIndex-1].style.display = "block";
+  dots[LombogslideIndex-1].className += " active";
+  captionText.innerHTML = dots[LombogslideIndex-1].alt;
+}
+</script>
+
+
+<div id="myLongonModal" class="modal">
+  <span class="close cursor" onclick="closeLongonModal()">&times;</span>
+  <div class="modal-content10">
+
+    <div class="LongonSlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="images/LONGON/vlcsnap-00001.jpg" style="width:100%">
+    </div>
+
+    <div class="LongonSlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="images/LONGON/vlcsnap-00002.jpg" style="width:100%">
+    </div>
+
+    <div class="LongonSlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="images/LONGON/vlcsnap-00003.jpg" style="width:100%">
+    </div>
+    
+    <div class="LongonSlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="images/LONGON/vlcsnap-00004.jpg" style="width:100%">
+    </div>
+    
+    <div class="LongonSlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="images/LONGON/vlcsnap-00005.jpg" style="width:100%">
+    </div>
+     
+    <div class="LongonSlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="images/LONGON/vlcsnap-00006.jpg" style="width:100%">
+    </div>
+
+    <div class="LongonSlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="images/LONGON/vlcsnap-00007.jpg" style="width:100%">
+    </div>
+
+    <div class="LongonSlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="images/LONGON/vlcsnap-00008.jpg" style="width:100%">
+    </div>
+   
+    <a class="prev" onclick="plusLongonSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusLongonSlides(1)">&#10095;</a>
+
+    <div class="caption-container10">
+      <p id="caption10"></p>
+    </div>
+
+
+ <div class="row">
+   <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00001.jpg" style="width:100%" onclick="currentLongonSlide(1)" alt="Longon Scenery">
+    </div>
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00002.jpg" style="width:100%" onclick="currentLongonSlide(2)" alt="Longon Scenery">
+    </div>
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00003.jpg" style="width:100%" onclick="currentLongonSlide(3)" alt="Longon Scenery">
+    </div>
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00004.jpg" style="width:100%" onclick="currentLongonSlide(4)" alt="Longon Scenery">
+    </div>
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00005.jpg" style="width:100%" onclick="currentLongonSlide(5)" alt="Longon Scenery">
+    </div>
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00006.jpg" style="width:100%" onclick="currentLongonSlide(6)" alt="Longon Scenery">
+    </div>
+ </div>
+ <div class="row">
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00007.jpg" style="width:100%" onclick="currentLongonSlide(7)" alt="Longon Scenery">
+    </div>
+    <div class="column">
+      <img class="demo10 cursor" src="images/LONGON/vlcsnap-00008.jpg" style="width:100%" onclick="currentLongonSlide(8)" alt="Longon Scenery">
+    </div>
+ </div>
+
+  </div>
+</div>
+
+<script>
+function openLongonModal() {
+  document.getElementById("myLongonModal").style.display = "block";
+}
+
+function closeLongonModal() {
+  document.getElementById("myLongonModal").style.display = "none";
+}
+
+var LongonslideIndex = 1;
+showLongonSlides(LongonslideIndex);
+
+function plusLongonSlides(n) {
+  showLongonSlides(LongonslideIndex += n);
+}
+
+function currentLongonSlide(n) {
+  showLongonSlides(LongonslideIndex = n);
+}
+
+function showLongonSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("LongonSlides");
+  var dots = document.getElementsByClassName("demo10");
+  var captionText = document.getElementById("caption10");
+  if (n > slides.length) {LongonslideIndex = 1}
+  if (n < 1) {LongonslideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[LongonslideIndex-1].style.display = "block";
+  dots[LongonslideIndex-1].className += " active";
+  captionText.innerHTML = dots[LongonslideIndex-1].alt;
+}
+</script>
+
+
+<br>
+
+<div class="footer">
+<p class="ftr">Proprietor:&nbsp;&nbsp;Don & Grace Go-Tenio</p>
+<pclass="ftr"><img class="icn" src="images/globeICN.png" title="GLOBE Communications">&nbsp;&nbsp;+63 (0927) 211-7864&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="icn" src="images/whatsApp2.png" title="WhatsApp">&nbsp;&nbsp;+1 (647) 986-1698&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="icn" src="images/emailICN3.png">&nbsp;&nbsp;<a href="mailto:dontenio@dentristod.com">dontenio@dentristod.com</a>&nbsp;/&nbsp;<a href="mailto:gracetenio@dentristod.com">gracetenio@dentristod.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/dentristodvacationrental" class="fa fa-facebook" target="_blank"></a>&nbsp;&nbsp;<a href="http://m.me/384286205355518" target="_blank"><img class="icn" src="images/msngrICN3.png" title="MESSENGER"></a><a href="https://www.airbnb.ca/rooms/1351801619477814958?guests=1&adults=1&s=67&unique_share_id=6cd27689-a2a0-47db-ba56-82add4e5bc47&source_impression_id=p3_1742396795_P3MJXMVHcqbodPns" target="_blank"><img class="icn2" src="images/airbnb-logoICN.png" title="AirBNB"></a></p>
+<p style="font-size: 9px;">&#169;&nbsp;&nbspDeveloped by: DonTenio Web Designs</p>
+
+</div>
+
+
+
+
+</body>
+</html>
