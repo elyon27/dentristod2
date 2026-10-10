@@ -1,0 +1,14 @@
+{
+  "name": "dentristod-website",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/prepare-assets.mjs && node --check site/reservations.js && node --check server/backend.mjs && node --check netlify/functions/backend.mjs",
+    "dev": "npx netlify-cli dev"
+  }
+}
