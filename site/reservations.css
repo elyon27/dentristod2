@@ -1,0 +1,6 @@
+/* Matches the original green reservation controls. */
+#check-availability {margin-right:5px;background-color:#04AA6D;color:white;padding:12px 20px;border:5px;border-radius:8px;cursor:pointer;float:right;}
+#check-availability:hover {background-color:#45a049;}
+#reservation-form input:disabled {opacity:.6;cursor:wait;}
+#reservation-status {clear:both;line-height:1.5;overflow-wrap:anywhere;}
+#reservation-status:empty {display:none;}
