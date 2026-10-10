@@ -1,0 +1,668 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.popupcontainer{
+  padding: 0px;
+  width:60%;
+  margin: auto;
+  margin-top: 0px;
+  background-color: #bcb3aa;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+
+  display: flex;
+}
+
+.tooltip{
+	position: relative;
+}
+
+area{
+	cursor: pointer;
+	transition: 0.3s;
+}
+area:hoover{
+	opacity: 0.7;
+}
+
+/*---------------------------POGALING------------------------------*/
+
+.content{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 30px;
+	left: -490px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content p{
+	line-height: 1.3;
+}
+.content::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*----------------------PANORAMA REEF----------------------------*/
+
+.content1{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 50px;
+	left: -490px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content1 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content1 p{
+	line-height: 1.3;
+}
+.content1::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content1{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*----------------------MARINE PARK-----------------------------*/
+
+.content2{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 70px;
+	left: -485px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content2 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content2 p{
+	line-height: 1.3;
+}
+.content2::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content2{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*--------------WONDERWALL--------------------------------*/
+
+.content3{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 90px;
+	left: -475px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content3 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content3 p{
+	line-height: 1.3;
+}
+.content3::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content3{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------THE CAVERN 4-------------------------------*/
+.content4{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 105px;
+	left: -470px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content4 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content4 p{
+	line-height: 1.5;
+}
+.content4::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content4{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/*-------------------COCO WHITE S 5 -------------------------------*/
+
+.content5{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 135px;
+	left: -460px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content5 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content5 p{
+	line-height: 1.3;
+}
+.content5::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content5{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------COCO WHITE N 6-------------------------------*/
+
+.content6{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 150px;
+	left: -450px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content6 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content6 p{
+	line-height: 1.3;
+}
+.content6::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content6{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------LUMAYAG 7-------------------------------*/
+
+.content7{
+	width: 600px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 155px;
+	left: -440px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content7 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content7 p{
+	line-height: 1.3;
+}
+.content7::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content7{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------SNAPPERS 8-------------------------------*/
+
+.content8{
+	width: 600px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 195px;
+	left: -420px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content8 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content8 p{
+	line-height: 1.3;
+}
+.content8::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content8{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------CORAL GARDEN 9-------------------------------*/
+
+.content9{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 190px;
+	left: -400px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content9 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content9 p{
+	line-height: 1.3;
+}
+.content9::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content9{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------MAGIC POINT 10-------------------------------*/
+
+.content10{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 180px;
+	left: -370px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content10 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content10 p{
+	line-height: 1.3;
+}
+.content10::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content10{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/*-------------------BANILAD 11-------------------------------*/
+
+
+.content11{
+	width: 450px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 180px;
+	left: -340px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content11 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content11 p{
+	line-height: 1.3;
+}
+.content11::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content11{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------DAPDAP 12-------------------------------*/
+
+
+.content12{
+	width: 600px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 150px;
+	left: -300px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content12 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content12 p{
+	line-height: 1.3;
+}
+.content12::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content12{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------VIRGEN 13-------------------------------*/
+
+.content13{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 165px;
+	left: -265px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content13 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content13 p{
+	line-height: 1.3;
+}
+.content13::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content13{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/*-------------------BACONG 14-------------------------------*/
+
+
+.content14{
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 155px;
+	left: -210px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content14 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content14 p{
+	line-height: 1.3;
+}
+.content14::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content14{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*-------------------NEPTUNE 15-------------------------------*/
+
+
+.content15{
+	width: 600px;
+	background: #fff;
+	padding: 20px;
+	position: absolute;
+	top: 135px;
+	left: -170px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.content15 h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 	10px;
+}
+.content15 p{
+	line-height: 1.3;
+}
+.content15::before{
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: rotate(45deg) translateY(50%);
+}
+
+area:hover + .content15{
+	visibility: visible;
+	opacity: 1;
+}
+
