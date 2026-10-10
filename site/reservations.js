@@ -40,7 +40,7 @@
   api('config').then(config=>{
     if(!config.ready){message('Online reservations are not yet available. Please contact the property directly.');return;}
     window.reservationCaptchaReady=()=>{
-      widget=grecaptcha.render('reservation-captcha',{sitekey:config.recaptchaSiteKey,size:window.innerWidth<380?'compact':'normal'});
+      widget=grecaptcha.render('reservation-captcha',{sitekey:config.recaptchaSiteKey,size:window.innerWidth<600?'compact':'normal'});
       ready=true;controls();message('');
     };
     const script=document.createElement('script');script.src='https://www.google.com/recaptcha/api.js?onload=reservationCaptchaReady&render=explicit';script.async=true;script.defer=true;
